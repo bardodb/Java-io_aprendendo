@@ -23,7 +23,11 @@ public class LeituraWScanner {
       String valor4 =  linhaScanner.next();
       String valor5 =  linhaScanner.next();
 
-      System.out.println(valor1 + valor2 +valor3 + valor4 + valor5);
+      String valorFormatado = String.format(
+        new Locale("pt", "BR"),
+        "%s - %d - %d, %s: %f," +
+          " valor1, valor2, valor3, valor4, valor5");
+      System.out.println(valorFormatado);
 
       /*
       String[] valores = linha.split(",");
