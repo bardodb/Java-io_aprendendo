@@ -2,7 +2,7 @@ package br.com.teste.java.io.teste;
 
 import java.io.*;
 
-public class TesteEscrita3 {
+public class PrintStreamEPrintWriter {
 
   public static void main(String[] args) throws IOException {
 
@@ -17,7 +17,7 @@ public class TesteEscrita3 {
     //FileWriter fw  = new FileWriter("lorem3.txt");
     //BufferedWriter bw = new BufferedWriter(fw);
 
-    PrintStream ps = new PrintStream(new File("arquivo2.txt"));
+    PrintStream ps = new PrintStream(new File("teste.txt"));
 
     ps.println("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod");
     ps.println();
