@@ -1,5 +1,3 @@
-package br.com.teste.java.io.teste;
-
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
 

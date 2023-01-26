@@ -1,5 +1,3 @@
-package br.com.teste.java.io.teste;
-
 import java.io.*;
 
 public class TesteEscritaWriter {
@@ -14,7 +12,7 @@ public class TesteEscritaWriter {
     Writer osw = new OutputStreamWriter(fos);
     BufferedWriter bw = new BufferedWriter(osw);*/
 
-    FileWriter fw  = new FileWriter("lorem3.txt");
+    FileWriter fw = new FileWriter("lorem3.txt");
     BufferedWriter bw = new BufferedWriter(fw);
     fw.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod");
     bw.newLine();

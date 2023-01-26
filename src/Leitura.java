@@ -1,5 +1,3 @@
-package br.com.teste.java.io.teste;
-
 import java.io.*;
 
 public class Leitura {
@@ -19,14 +17,14 @@ public class Leitura {
 
 
     String linha = br.readLine();
-    while (linha != null){
+    while (linha != null) {
       System.out.println(linha);
       linha = br.readLine();
     }
 
 //readline lê a linha até chegar em null, então se eu não quiser que chegue, é só explicar no programa que linha não é null e continua
 
-    
+
   }
 
 

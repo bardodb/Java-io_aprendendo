@@ -1,5 +1,3 @@
-package br.com.teste.java.io.teste;
-
 import java.io.*;
 
 public class Escrita {
