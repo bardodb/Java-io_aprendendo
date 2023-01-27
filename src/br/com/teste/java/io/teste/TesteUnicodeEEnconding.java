@@ -1,5 +1,8 @@
+package br.com.teste.java.io.teste;
+
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 
 public class TesteUnicodeEEnconding {
   public static void main(String[] args) throws UnsupportedEncodingException {
@@ -14,7 +17,7 @@ public class TesteUnicodeEEnconding {
     byte[] bytes = s.getBytes("windows-1252");
     System.out.println(bytes.length + ", windows-1252 ");
 
-    bytes = s.getBytes("UTF-16");
+    bytes = s.getBytes(StandardCharsets.UTF_16);
     System.out.println(bytes.length + ", UTF-16");
 
 

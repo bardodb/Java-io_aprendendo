@@ -1,3 +1,5 @@
+package br.com.teste.java.io.teste;
+
 import java.io.*;
 
 public class PrintStreamEPrintWriter {
@@ -8,7 +10,8 @@ public class PrintStreamEPrintWriter {
     //fluxo de entrada com arquivos (FileInputStream)
     //quando eu for fazer um IO, preciso lançar uma exception pra garantir que se der erro, vou ser avisada
 
-   OutputStream fos = new FileOutputStream("lorem.txt");
+   OutputStream fos;
+    fos = new FileOutputStream("lorem.txt");
     Writer osw = new OutputStreamWriter(fos);
     BufferedWriter bw = new BufferedWriter(osw);
 

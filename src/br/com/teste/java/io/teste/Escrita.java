@@ -1,3 +1,5 @@
+package br.com.teste.java.io.teste;
+
 import java.io.*;
 
 public class Escrita {
@@ -13,7 +15,6 @@ public class Escrita {
     BufferedWriter bw = new BufferedWriter(osw);
 
     bw.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod");
-    bw.newLine();
     bw.newLine();
     bw.write("asdouhasoidhiopas asdiuhdosaihas adsuhaosih ");
 
